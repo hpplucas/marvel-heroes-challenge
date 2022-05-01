@@ -5,7 +5,7 @@ Desafio da [DevChallenge](https://github.com/Lorenalgm/marvel-heroes).
 Desafio feito em [Flutter](https://flutter.dev/) com o propósito de estudar conceitos Clean Architecture e Testes Unitários.
 
 ## Demo
-![GIF](https://i.imgur.com/gfGNN4d.gif)
+![GIF](https://i.imgur.com/7ZKgXeU.gif)
 
 ## Como executar o projeto
 Com o flutter instalado, execute os comandos:
