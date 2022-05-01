@@ -1,0 +1,43 @@
+name: marvel_heroes
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.2
+  flutter_svg: ^1.0.3
+  rxdart: ^0.27.3
+  shimmer: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  mocktail: ^0.3.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/heroes.json
+    - assets/fonts/
+    - assets/chars/
+    - assets/movies/
+    - assets/icons/
+
+  fonts:
+    - family: gilroy
+      fonts:
+        - asset: assets/fonts/gilroy-bold.ttf
+        - asset: assets/fonts/gilroy-heavy.ttf
+        - asset: assets/fonts/gilroy-regular.ttf
+        - asset: assets/fonts/gilroy-medium.ttf
+        - asset: assets/fonts/gilroy-semibold.ttf
